@@ -1,0 +1,9 @@
+<div class="main__container">
+  <div class="zippy__container" (click)="onClick()">
+    <span class="zippy__title">{{ title }}</span>
+    <span class="zippy__icon"></span>
+  </div>
+  <div *ngIf="isSelected == true" class="zippy__content">
+      {{ content }}
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.main__container {
+    margin: 4em;
+    max-width: 50%;
+    color: #2c2c2c;
+}
+
+.zippy__container {
+    background-color: #ccc;
+    font-size: 32px;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.zippy__content {
+    background-color: #c7c7c7;
+    font-size: 28px;
+}
