@@ -7,6 +7,7 @@ import { FavoriteComponent } from './favorite/favorite.component';
 import { ZippyComponent } from './zippy/zippy.component';
 import { FormComponent } from './form/form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SignupFormComponent } from './signup-form/signup-form.component';
     FavoriteComponent,
     ZippyComponent,
     FormComponent,
-    SignupFormComponent
+    SignupFormComponent,
+    ChangePasswordComponent
   ],
   imports: [
     BrowserModule,
